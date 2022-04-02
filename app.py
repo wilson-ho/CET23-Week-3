@@ -32,7 +32,7 @@ def index():
         s = TextBlob(text).sentiment
         return(render_template("index.html",result = s))
     else:
-        return(render_tempalte("index.html",result = "2"))
+        return(render_template("index.html",result = "2"))
 
 
 # In[ ]:
